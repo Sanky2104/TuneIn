@@ -121,7 +121,7 @@ const NavList = styled.li`
     display: flex;
     align-items:center;
     a {
-        
+        align-items: center;
     }
 `;
 
