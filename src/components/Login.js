@@ -75,7 +75,7 @@ const Container = styled.div`
     padding: 0px;
 `;
 const Nav = styled.nav`
-    max-width: 2500px;
+    max-width: 1128px;
     margin: auto;
     padding: 12px 0 16px;
     display: flex;
@@ -83,17 +83,13 @@ const Nav = styled.nav`
     position: relative;
     justify-content: space-between;
     flex-wrap: nowrap;
-    
-    /* Style for the image */
     & > a {
-        /* Adjust the width and height to your desired size */
         width: 134px; /* Adjust this value */
         height: 34px; /* Adjust this value */
         padding: 20px;
-        
         @media (max-width: 768px) {
             padding: 0 5px;
-        } /* On a phone*/
+        } 
     }
 `;
 
@@ -141,7 +137,7 @@ const Section = styled.section`
     min-height:700px;
     padding-bottom: 75px;
     padding-top: 40px;
-    padding: 60px 0;
+    padding: 2px 0;
     position: relative;
     flex-wrap: wrap;
     width: 100%;
@@ -166,10 +162,10 @@ const Hero = styled.div`
     h1 {
         padding-bottom: 0;
         width: 55%;
-        font-size: 56px;
+        font-size: 50px;
         color: #141414;
         font-weight: 200;
-        line-height: 70px;
+        line-height: 60px;
         @media (max-width: 768px) {
             padding: 20px;
             text-align: center;
