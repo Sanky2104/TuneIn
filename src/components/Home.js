@@ -1,4 +1,7 @@
 import styled from 'styled-components';
+import Leftside from './Leftside';
+import Righside from './Rightside';
+import Main from './Main';
 
 const Home = (props) => {
     return (
@@ -8,9 +11,9 @@ const Home = (props) => {
                 <p>Streamline your search for musical talent on TuneIn and keep the music playing smoothly.</p>
             </Section>
             <Layout>
-                <div>Left Side</div>
-                <div>Main</div>
-                <div>Right Side</div>
+                <Leftside />
+                <Main />
+                <Righside />
             </Layout>
         </Container>
     );
